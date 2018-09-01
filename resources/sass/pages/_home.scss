@@ -2,14 +2,20 @@
 /* SECTION PARTNERS | IN HOME PAGE
 /* ------------------------------------------- */
 
-.section-partners {
-
-    &__partners {
-        display: flex;
+.logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    // --- MEDIA QUERIES --- \\
+    @include respond(phone) {
+        display: block;
+        padding-left: 15rem;
         align-items: center;
-        justify-content: space-between;
-        padding-left: 10rem;
     }
+}
+
+.section-partners {
 
     &__logo-1 {
         height: 3rem;

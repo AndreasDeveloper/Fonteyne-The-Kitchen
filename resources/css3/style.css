@@ -686,11 +686,15 @@ nav.scroll ul li a:active {
 /* ------------------------------------------- */
 /* SECTION PARTNERS | IN HOME PAGE
 /* ------------------------------------------- */
-.section-partners__partners {
+.logos {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding-left: 10rem; }
+  justify-content: space-between; }
+  @media only screen and (max-width: 37.5em) {
+    .logos {
+      display: block;
+      padding-left: 15rem;
+      align-items: center; } }
 
 .section-partners__logo-1 {
   height: 3rem;
