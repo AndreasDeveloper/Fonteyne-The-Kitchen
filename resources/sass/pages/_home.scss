@@ -1,0 +1,91 @@
+/* ------------------------------------------- */
+/* SECTION PARTNERS | IN HOME PAGE
+/* ------------------------------------------- */
+
+.section-partners {
+
+    &__partners {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 10rem;
+    }
+
+    &__logo-1 {
+        height: 3rem;
+
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    }
+
+    &__logo-2 {
+        height: 8rem;
+
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    }
+
+    &__logo-3 {
+        height: 5rem;
+
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    }
+
+    &__logo-4 {
+        height: 9rem;
+
+        -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+        filter: grayscale(100%);
+    }
+}
+
+/* ------------------------------------------- */
+/* SECTION NEWS | IN HOME PAGE
+/* ------------------------------------------- */
+
+.section-news {
+
+    padding: 10rem 5rem;
+
+    &__date {
+        font-size: 1.2rem;
+        padding-top: 1rem;
+    }
+
+    &__heading {
+        padding-top: -1rem;
+        display: inline-block;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}
+
+/* ------------------------------------------- */
+/* SECTION CONTACT | IN HOME PAGE
+/* ------------------------------------------- */
+
+.section-contact {
+
+    background-image: linear-gradient(to top, $color-primary-light, $color-primary-dark); 
+    color: $color-white;
+    text-align: center;
+    padding: 2rem 0;
+
+    &__heading {
+        color: $color-white;
+    }
+
+    &__info {
+
+    }
+
+    &__num {
+
+    }
+
+    &__email {
+        font-size: 1.8rem;
+    }
+}

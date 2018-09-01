@@ -1,0 +1,53 @@
+/* ------------------------------------------- */
+/* HEADER
+/* ------------------------------------------- */
+
+header {
+    margin: 0 11.5rem;
+
+        // * --- MEDIA QUERIES --- * \\
+        @include respond(tab-port) {
+            margin: 0;
+        }
+}
+
+.header {
+
+    height: 95vh;
+    max-width: 100%;
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.500), rgba($color-primary-dark, 0.500)) ,url(../images/header-1.jpeg);
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    z-index: 2;
+
+    box-sizing: border-box;
+    padding: 0 20rem;
+
+    &__logo-box {
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+
+    &__logo {
+        height: 8rem;
+    }
+    
+    &__text-box {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    &__button {
+        position: absolute;
+        top: 120%;
+        left: 32%;
+        background-color: $color-primary;
+        letter-spacing: .3rem;
+    }
+
+}

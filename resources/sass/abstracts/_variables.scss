@@ -1,0 +1,44 @@
+/* ------------------------------------------- */
+/* COLOR VARIABLES
+/* ------------------------------------------- */
+
+/* -- COLORS -- */
+
+$color-primary: #cc8e35;
+$color-primary-light: #d39d50;
+$color-primary-dark: #b27b2d;
+
+$color-secondary-light: #ffb900; // Color For Tours Card Gradient
+$color-secondary-dark: #ff7730; // Color For Tours Card Gradient
+
+$color-tertiary-light: #2998ff; // Color For Tours Card Gradient
+$color-tertiary-dark: #5643fa; // Color For Tours Card Gradient
+
+$color-grey-dark-1: #777; // Color for text
+$color-grey-dark-2: #999; // Darker grey color 1
+$color-grey-dark-3: #333; // Darker Grey Color 2
+
+$color-white: #fff; // Color White
+$color-black: #000; // Color Black
+
+// COLOR USED IN ABOUT SECTION
+$color-grey-light-1: #f7f7f7; // COLOR GREY LIGHT 1
+$color-grey-light-2: #eee; // COLOR GREY LIGHT 2
+
+/* -- BORDER RADIUS  -- */
+$border-radius-default: .3rem; // BORDER RADIUS VARIABLE OF 3px 
+
+/* ------------------------------------------- */
+/* GRID VARIABLES
+/* ------------------------------------------- */
+
+$grid-width: 114rem;    // MAX WIDTH
+$gutter-vertical: 8rem; // VERTICAL SPACING BETWEEN COLUMNS
+$gutter-vertical-small: 6rem;
+$gutter-horizontal: 6rem; // HORIZONTAL SPACING BETWEEN COLUMNS
+
+/* ------------------------------------------- */
+/* FONT
+/* ------------------------------------------- */
+
+$default-font-size: 1.6rem;

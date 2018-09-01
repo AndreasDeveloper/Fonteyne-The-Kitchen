@@ -1,0 +1,48 @@
+/* ------------------------------------------- */
+/* SECTION NEWS | POSTS
+/* ------------------------------------------- */
+
+.post-text {
+    padding: 0 1rem;
+}
+
+// --- POST 1 SETUP --- \\
+.post-1 {
+
+    &__photo {
+        max-height: 40rem;
+        max-width: 40rem;
+        padding-right: 5rem;
+    }
+
+    &__paragraph {
+    }
+}
+
+// --- POST 2 SETUP --- \\
+.post-2 {
+
+    &__photo {
+        max-height: 40rem;
+        max-width: 40rem;
+        padding-right: 5rem;
+    }
+
+    &__paragraph {
+        
+    }
+}
+
+// --- POST 3 SETUP --- \\
+.post-3 {
+
+    &__photo {
+        max-height: 40rem;
+        max-width: 40rem;
+        padding-right: 5rem;
+    }
+
+    &__paragraph {
+
+    }
+}

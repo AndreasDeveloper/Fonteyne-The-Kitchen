@@ -1,0 +1,185 @@
+/* ------------------------------------------- */
+/* SECTION FEATURES SETUP
+/* ------------------------------------------- */
+
+.section-feature-header {
+    font-size: 2.2rem;
+
+     // SETUP THE TEXT (h2) TO DISPLAY WITH MULTIPLE COLORS IN THE BACKGROUND \\
+     display: inline-block;
+     background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+     -webkit-background-clip: text;
+     color: transparent;
+}
+
+// --- CONTAINER 1 --- \\
+.section-feature-1 {
+
+    // WIDTH AND HEIGHT OF THE CONTAINER
+    width: 100%;
+    // POSITIONING
+    overflow: hidden;
+    position: relative;
+    // PADDING AND Z-INDEX
+    z-index: 15;
+
+    // * --- MEDIA QUERIES | FOR CONTAINER 1 --- * \\
+    @include respond(phone) {
+        padding-bottom: 10rem;
+    }
+
+    // SETUP FOR TEXT ELEMENTS
+    &__text {
+        padding-top: 5rem;
+    }
+
+    // READ MORE BUTTON SETUP 
+    &__button-1 {                  
+        //@include button-center;   // IF BUTTON NEEDS TO BE POSITIONED ON CENTER, UNCOMMENT THIS
+    
+        // * --- MEDIA QUERIES | FOR THE BUTTON CENTERING --- * \\
+        @include respond(phone) {
+            position: absolute;
+            left: 5%;
+            top: 0;
+        }
+    } 
+
+    &__photo {
+        max-height: 120%;
+        max-width: 120%;
+        overflow: hidden;
+    }
+}
+// --- CONTAINER 1 --- \\
+
+// --- CONTAINER 2 --- \\
+.section-feature-2 {
+
+    // WIDTH AND HEIGHT OF THE CONTAINER
+    width: 100%;
+    margin-top: -0.5rem;
+    // POSITIONING
+    overflow: hidden;
+    position: relative;
+    // PADDING AND Z-INDEX
+    z-index: 15;
+
+    // * --- MEDIA QUERIES | FOR CONTAINER 1 --- * \\
+    @include respond(phone) {
+        padding-bottom: 10rem;
+    }
+
+    // SETUP FOR TEXT ELEMENTS
+    &__text {
+        padding-top: 5rem;
+        padding-left: 10rem;
+        text-align: right;
+    }
+
+    // READ MORE BUTTON SETUP 
+    &__button-1 {                  
+        //@include button-center;   // IF BUTTON NEEDS TO BE POSITIONED ON CENTER, UNCOMMENT THIS
+    
+        // * --- MEDIA QUERIES | FOR THE BUTTON CENTERING --- * \\
+        @include respond(phone) {
+            position: absolute;
+            left: 5%;
+            top: 0;
+        }
+    } 
+
+    &__photo {
+        max-height: 112%;
+        max-width: 130%;
+        overflow: hidden;
+    }
+}
+// --- CONTAINER 2 --- \\
+
+// --- CONTAINER 3 --- \\
+.section-feature-3 {
+
+    // WIDTH AND HEIGHT OF THE CONTAINER
+    width: 100%;
+    // POSITIONING
+    overflow: hidden;
+    position: relative;
+    margin-top: -0.5rem;
+    // PADDING AND Z-INDEX
+    z-index: 15;
+
+    // * --- MEDIA QUERIES | FOR CONTAINER 1 --- * \\
+    @include respond(phone) {
+        padding-bottom: 10rem;
+    }
+
+    // SETUP FOR TEXT ELEMENTS
+    &__text {
+        padding-top: 5rem;
+        text-align: left;
+    }
+
+    // READ MORE BUTTON SETUP 
+    &__button-1 {                  
+        //@include button-center;   // IF BUTTON NEEDS TO BE POSITIONED ON CENTER, UNCOMMENT THIS
+    
+        // * --- MEDIA QUERIES | FOR THE BUTTON CENTERING --- * \\
+        @include respond(phone) {
+            position: absolute;
+            left: 5%;
+            top: 0;
+        }
+    } 
+
+    &__photo {
+        max-height: 100%;
+        max-width: 130%;
+        overflow: hidden;
+    }
+}
+// --- CONTAINER 3 --- \\
+
+// --- CONTAINER 4 --- \\
+.section-feature-4 {
+
+    // WIDTH AND HEIGHT OF THE CONTAINER
+    width: 100%;
+    margin-top: -0.5rem;
+    // POSITIONING
+    overflow: hidden;
+    position: relative;
+    // PADDING AND Z-INDEX
+    z-index: 15;
+
+    // * --- MEDIA QUERIES | FOR CONTAINER 1 --- * \\
+    @include respond(phone) {
+        padding-bottom: 10rem;
+    }
+
+    // SETUP FOR TEXT ELEMENTS
+    &__text {
+        padding-top: 5rem;
+        padding-left: 10rem;
+        text-align: right;
+    }
+
+    // READ MORE BUTTON SETUP 
+    &__button-1 {                  
+        //@include button-center;   // IF BUTTON NEEDS TO BE POSITIONED ON CENTER, UNCOMMENT THIS
+    
+        // * --- MEDIA QUERIES | FOR THE BUTTON CENTERING --- * \\
+        @include respond(phone) {
+            position: absolute;
+            left: 5%;
+            top: 0;
+        }
+    } 
+
+    &__photo {
+        max-height: 112%;
+        max-width: 130%;
+        overflow: hidden;
+    }
+}
+// --- CONTAINER 4 --- \\
